@@ -58,10 +58,10 @@ Here's a list of some things to include in your app in the appropriate spots:
 
 ## Part 2: Factory
 
-- [ ] Make a new branch called `guide-factory`  
-- [ ] Separate the database interactions from the DOM interactions.
-- [ ] Make your guidebook data available to your controller (and other, future controllers) by moving the `$http` call for `guides.json` from `bookCtrl.js` into `guideFactory.js`
-- [ ] Inject your factory into `bookCtrl.js` as a dependency
+- [x] Make a new branch called `guide-factory`  
+- [x] Separate the database interactions from the DOM interactions.
+- [x] Make your guidebook data available to your controller (and other, future controllers) by moving the `$http` call for `guides.json` from `bookCtrl.js` into `guideFactory.js`
+- [x] Inject your factory into `bookCtrl.js` as a dependency
 
 ## Part 3: Routing
 
