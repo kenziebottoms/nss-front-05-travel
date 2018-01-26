@@ -1,5 +1,7 @@
-<table>
-    <tr ng-repeat="guide in guides">
-        <td>{{guide}}</td>
+<table class="table">
+    <tr ng-repeat="guide in guides" class="my-5">
+        <td>{{guide.title}}</td>
+        <td class="text-muted">{{guide.type}}</td>
+        <td>${{guide.price}}</td>
     </tr>
 </table>

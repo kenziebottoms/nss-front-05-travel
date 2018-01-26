@@ -37,24 +37,24 @@ You will need to display all three pieces of information from [`guides.json`](da
 For this project you need to use Angular to list a collection of travel guides in the DOM.
 
 Build an application that has
-- [ ] One view
-    - [ ] Title
-    - [ ] Type
-    - [ ] Price
-- [ ] One controller
-    - [ ] Fetch your data using an `$http` call that returns a promise.
-    - [ ] Save the returned data as a property of the `$scope` object.
-    - [ ] Loop through it to display the guidebook info to the user.
+- [x] One view
+    - [x] Title
+    - [x] Type
+    - [x] Price
+- [x] One controller
+    - [x] Fetch your data using an `$http` call that returns a promise.
+    - [x] Save the returned data as a property of the `$scope` object.
+    - [x] Loop through it to display the guidebook info to the user.
 
 Here's a list of some things to include in your app in the appropriate spots:
 
-- [ ] Directives:
-  - [ ] `ng-app="<your module name>"`
-  - [ ] `ng-controller="bookCtrl"`
-  - [ ] `ng-repeat="book in books"`
-- [ ] A call to the data folder for `guides.json` using `$http`
-- [ ] Use the `$q` service to wrap your http call in a promise
-- [ ] `$scope.books = <your array of guide books data>`
+- [x] Directives:
+  - [x] `ng-app="<your module name>"`
+  - [x] `ng-controller="bookCtrl"`
+  - [x] `ng-repeat="book in books"`
+- [x] A call to the data folder for `guides.json` using `$http`
+- [x] Use the `$q` service to wrap your http call in a promise
+- [x] `$scope.books = <your array of guide books data>`
 
 ## Part 2: Factory
 
