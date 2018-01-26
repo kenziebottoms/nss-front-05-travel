@@ -65,17 +65,9 @@ Here's a list of some things to include in your app in the appropriate spots:
 
 ## Part 3: Routing
 
-- [ ] Make a new branch called `guide-routing`  
-- [ ] Include the separate `angular-route` provider into `index.html`:
-        ```html
-        <script src="my-path-to-angular-route.min.js"></script>
-        ```
-- [ ] Inject it into your app as a dependency:
-        ```js
-        var myApp = angular.module("MyAppName", ['ngRoute']);
-        ```
-- [ ] Setup routing in app.js using the config method:
+- [x] Make a new branch called `guide-routing`  
+- [x] Setup routing in app.js using the config method:
         ```js
         app.config(['$routeProvider'...
         ```
-- [ ] Remember to remove `ng-controller` references from `index.html`. Angular-route will now handle binding controllers to partials.
+- [x] Remember to remove `ng-controller` references from `index.html`. Angular-route will now handle binding controllers to partials.
