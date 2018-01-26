@@ -1,5 +1,10 @@
 # Wide World Travel Guides
 
+![](https://img.shields.io/badge/data-static_json-lightgrey.svg)
+![](https://img.shields.io/badge/template-angular-red.svg)
+![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)
+![](https://img.shields.io/badge/mvp-in_progress-yellow.svg)
+
 ### Recommended file structure
 
 ```
